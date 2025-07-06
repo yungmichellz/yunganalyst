@@ -1,0 +1,104 @@
+# 🧩 Internal IT Audit Report – Botium Toys
+
+**Prepared by:** _[Your Name]_  
+**Date:** July 2025  
+**Purpose:** Evaluate Botium Toys' cybersecurity posture using the NIST Cybersecurity Framework, PCI DSS, and GDPR.
+
+---
+
+## 🧭 Executive Summary
+
+Botium Toys, a U.S.-based toy company with a growing online market, faces increased cybersecurity risks and regulatory obligations due to its international operations. This audit was initiated to assess security gaps, reduce risks, and achieve compliance with data protection and payment processing regulations. 
+
+The findings reveal critical vulnerabilities and compliance gaps that must be addressed for long-term business continuity and security.
+
+---
+
+## 🎯 Audit Goals
+
+- Assess risks across critical digital assets
+- Determine compliance with PCI DSS and GDPR
+- Recommend improvements to strengthen cybersecurity
+- Enhance global readiness for customer privacy and payment security
+
+---
+
+## 🔍 Audit Scope
+
+| Area                        | Description                                           |
+|----------------------------|-------------------------------------------------------|
+| Systems in Scope           | Website, internal network, employee devices, customer data systems, physical servers |
+| Focus Regulations          | NIST CSF, PCI DSS, GDPR                               |
+| Assets Audited             | Web servers, payment systems, customer database, email systems, physical office |
+
+---
+
+## ⚠️ Risk Assessment Summary
+
+| ID | Asset                   | Threat                  | Vulnerability                        | Impact | Likelihood | Risk |
+|----|-------------------------|--------------------------|--------------------------------------|--------|------------|------|
+| R1 | E-commerce Website      | DDoS / hacking           | Outdated CMS                         | High   | High       | 🚨 Critical |
+| R2 | Payment System          | Data breach              | No encryption                        | High   | Medium     | 🔴 High     |
+| R3 | Customer Database       | Unauthorized access      | Weak access controls                 | High   | High       | 🚨 Critical |
+| R4 | Email Systems           | Phishing                 | No MFA or training                   | Medium | High       | 🔴 High     |
+| R5 | EU Customer Data        | GDPR Non-compliance      | No DPO / unclear retention policies  | High   | Medium     | 🔴 High     |
+| R6 | Office Infrastructure   | Physical security threat | No surveillance or backup power      | Medium | Medium     | 🟡 Medium   |
+
+---
+
+## ✅ Controls & Compliance Checklist
+
+| # | Control Area                   | Standard(s)         | Description                                             | Status      | Recommendations                       |
+|---|-------------------------------|---------------------|---------------------------------------------------------|-------------|----------------------------------------|
+| 1 | Asset Inventory               | NIST CSF            | Maintain device & software inventory                   | ❌ Not Met   | Build dynamic asset registry           |
+| 2 | Access Control & MFA          | NIST CSF / PCI      | Role-based access and MFA across systems               | ⚠️ Partial   | Enforce MFA company-wide               |
+| 3 | Risk Assessment               | NIST CSF            | Regular assessments of threats & vulnerabilities       | ✅ Met       | Quarterly review cycle recommended     |
+| 4 | Data Encryption               | PCI DSS / GDPR      | Encrypt data at rest & in transit                      | ❌ Not Met   | Implement full encryption protocols    |
+| 5 | Logging & Monitoring          | NIST CSF            | Centralized logging and real-time alerting             | ⚠️ Partial   | Deploy SIEM system                     |
+| 6 | Incident Response Plan (IRP)  | NIST CSF / PCI      | Documented IRP with test scenarios                     | ❌ Not Met   | Develop, train, and test IRP           |
+| 7 | Payment Processing Security   | PCI DSS             | Secure transactions, segmentation, and tokenization    | ⚠️ Partial   | Conduct PCI gap analysis               |
+| 8 | Privacy Policy Transparency   | GDPR                | Publish clear privacy notices                          | ❌ Not Met   | Update website privacy statements      |
+| 9 | Data Retention Controls       | GDPR                | Limit how long personal data is stored                 | ❌ Not Met   | Create a documented retention policy   |
+|10 | Appoint Data Protection Officer| GDPR               | Assign internal/external DPO for EU compliance         | ❌ Not Met   | Hire or outsource DPO                  |
+|11 | Physical Security             | NIST CSF            | Surveillance, locks, environmental controls            | ⚠️ Partial   | Install cameras and UPS                |
+|12 | Security Awareness Training   | NIST CSF / PCI      | Employee training on phishing, malware, etc.           | ❌ Not Met   | Launch quarterly training               |
+|13 | Backup & Recovery             | NIST CSF            | Regular, tested data backups                           | ⚠️ Partial   | Establish offsite/cloud recovery plan  |
+
+---
+
+## 🛠️ Key Recommendations
+
+- 🔒 **Encrypt all sensitive data**, especially cardholder and customer data.
+- 🔐 **Implement MFA** and strengthen access control policies.
+- 🚨 **Develop an Incident Response Plan** and test it regularly.
+- 🎓 **Provide ongoing cybersecurity training** for all employees.
+- 🧑‍💼 **Appoint a Data Protection Officer** to manage GDPR compliance.
+- 🧾 **Audit payment systems** for PCI DSS readiness.
+- 📜 **Publish clear and compliant privacy policies** on your website.
+
+---
+
+## 📊 Compliance Readiness Summary
+
+| Standard | Readiness Level | Notes |
+|----------|-----------------|-------|
+| NIST CSF | 🟡 Moderate       | Good start, needs more automation and testing |
+| PCI DSS  | 🔴 Low-Moderate   | Significant encryption and monitoring gaps     |
+| GDPR     | 🔴 Low            | Non-compliant in key areas (DPO, retention, privacy) |
+
+---
+
+## 📎 Attachments (Optional for GitHub)
+- [ ] 📄 `risk_matrix.csv`
+- [ ] 📊 `audit_controls_checklist.xlsx`
+- [ ] 📁 `incident_response_plan_template.docx`
+- [ ] 🛠️ `remediation_roadmap.pdf`
+
+---
+
+_This report demonstrates security auditing skills, regulatory awareness, and familiarity with industry frameworks (NIST CSF, PCI DSS, GDPR)._
+
+✅ **Ready to be included in a GitHub portfolio for cybersecurity, auditing, or IT compliance roles.**
+
+---
+
